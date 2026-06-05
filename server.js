@@ -93,7 +93,7 @@ const db = mysql.createConnection({
   user: process.env.DB_USER || 'root',
   password: process.env.DB_PASSWORD || '',
   database: process.env.DB_NAME || 'devbridge_db',
-  port: 61001
+  port: 3306
 });
 
 db.connect((err) => {
